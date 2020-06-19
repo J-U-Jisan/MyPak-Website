@@ -1,0 +1,345 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+	position: relative;
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin: 0;
+}
+
+hr {
+	margin: 0px;
+}
+.section-margin {
+	margin: 125px 0px;
+}
+/*=================================
+Header
+===================================*/
+.navbar-nav .nav-item.active a{
+    color: blue !important;
+    border-bottom: 1px blue solid;
+}
+.navbar.navbar-expand-lg{
+	box-shadow: 0px 0px 2px 0px #000;
+}
+nav .collapse.navbar-collapse{
+	float: right;
+}
+.nav-item .nav-link.btn {
+	width: 200px !important;
+	background: #00A78E;
+	padding: 0px 0px;
+	margin-top: 8px;
+	border-radius: 27px 5px 27px 5px;
+	text-shadow: 2px 2px 2px #000000;
+}
+.navbar-light .navbar-nav .nav-link.btn span {
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+}
+.navbar-light .navbar-brand {
+	color: rgba(0,0,0,.9);
+	width: 30% !important;
+	float: left;
+}
+nav .collapse.navbar-collapse {
+	float: right;
+	width: 60% !important;
+	text-align: right;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+/*========parallex==========*/
+.parallax {
+    /* The image used */
+    background-image: url("../images/black.png");
+    /* Set a specific height */
+    min-height: 550px;
+    position: relative;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.parallax-content{
+    width: 80%;
+    transform: translateX(10%);
+    font-weight: bold;
+    font-size:30px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+    color: #f70707 !important;
+}
+@media (max-width: 575.98px) {
+    .parallax-content{
+        top:6% !important;
+    }
+    .parallax-content h1{
+        font-size: 28px;
+    }
+    .parallax-content ul{
+        font-size: 18px !important;
+        line-height: 24px;
+    }
+}
+/*=============Line-height==========**/
+@media (max-width: 575.98px){
+    ul.lne-hgt li h2{
+        line-height: 25px !important;
+        font-size: 22px !important;
+    }
+    h4.lne-hgt{
+        line-height: 25px !important;
+        font-size: 20px !important;
+    }
+}
+
+/*====  position-absolute   ====*/
+@media (max-width: 575.98px) {
+    .position-absolute h3{
+        font-size: 15px;
+    }
+    .position-absolute{
+        top:35% !important;
+    }
+}
+/*=============*/
+ */
+ */
+
+/*=========Machine Gallery=======*/
+.gallery{
+    margin: 10px 50px;
+
+}
+@media (max-width: 575.98px) {
+    .gallery{
+        margin: 0px;
+    }
+    .gallery-div{
+        margin: 0 auto;
+        text-align: center;
+        transform: translateX(0%) !important;
+    }
+    .qlt{
+        font-size: 25px;
+    }
+}
+.gallery img{
+    width: 332px;
+    padding: 15px;
+    transition: 1s;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+.gallery-div{
+    margin: 0 auto;
+    text-align: center;
+    transform: translateX(16%);
+}
+/*==============Table===============*/
+.campaigns div img{
+    display: none;
+}
+.campaigns div table{
+    display: inline-table;
+}
+@media (max-width: 575.98px) {
+    .campaigns div table{
+        display: none;
+    }
+    .campaigns div img{
+        display: block;
+    }
+}
+/*========news_career======*/
+@media (max-width: 575.98px) {
+    .new_car h4{
+        font-size: 18px !important;
+    }
+}
+/*=============================================*/
+.urgent-donation-s2 .container-fluid .row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.urgent-donation-s2{
+	background-color: #00A78E;
+}
+.urgent-donation-s2 .urgent-donation{
+	padding: 60px 0;
+	position: relative;
+}
+.urgent-donation-s2 .urgent-donation::before{
+    content: "";
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.urgent-donation-s2 .urgent-donation .donation{
+	position: relative;
+	z-index: 10;
+}
+.urgent-donation-s2 .urgent-donation .donation h2{
+	font-weight: 800;
+	color: #fff;
+	font-size: 35px;
+}
+.urgent-donation-s2 .urgent-donation .donation span{
+	color: #00A78E;
+	font-weight: 600;
+	font-size: 26px;
+    line-height: 30px;
+}
+.urgent-donation-s2 .urgent-donation .donation p{
+	color: #fff;
+}
+
+.urgent-donation .donation {
+	width: 600px;
+	margin: 0 auto;
+}
+.row::before{
+    display: table;
+    content: "";
+}
+
+.urgent-donation-s2 .donation-meter-body{
+	width: 485px;
+	margin: 0 auto;
+	padding: 0px 0 0 0px;
+    margin-bottom: -5px;
+}
+
+/*=======================================*/
+.help{
+	background-color: #f1f4f6;
+}
+
+/*==============================*/
+.card-full-body {
+	color: #000;
+    background-color: #33a3bd;
+    min-height: 300px;
+}
+
+/*===================================*/
+
+.clearfix.cta-bg {
+	padding: 70px 0;
+}
+
+/*==========================================*/
+
+
+/*=============map============*/
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+html { scroll-behavior: smooth;}
+
+/*=============================================
+
+=============================================*/
+
+
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 10% !important;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+
+.h-75{
+    height: 600px !important;
+}
+/*======================================*/
+.footer{
+    background-color: #9B9995
+}
+.footer .col-md-5 {
+    text-align: left;
+}
+.footer {
+    background-color: #9B9995 !important;
+    overflow: hidden;
+}
+.footer .col-md-5 {
+    text-align: left;
+    padding-right: 78px;
+}
+.footer .col.float-left.col p {
+    color: black;
+    text-align: justify;
+}
+.footer .col .title {
+    color: white;
+}
+.footer .container .col-md-5 a {
+    color: white;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.footer .section-padding {
+    padding: 125px 0 0 0 !important;
+}
+.footer .developed {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: #000;
+    margin-top: 15px;
+    color: #939393;
+}
+.footer .developed font {
+    color: #00a78e;
+}
+.footer .developed p {
+    padding-top: 10px;
+}
